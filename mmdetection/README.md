@@ -15,7 +15,7 @@
 
 The configs are in `configs/maskd`.
 
-For example, train mask tokens on `cascade_mask_rcnn_x101`:
+Example of training mask tokens on `cascade_mask_rcnn_x101`:
 ```shell
 sh tools/dist_train.sh mmdetection/configs/maskd/cascade_mask_rcnn_x101_64x4d_fpn_20e_coco.py 8 work_dirs/cmx101
 ```
