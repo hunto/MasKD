@@ -1,11 +1,11 @@
 # Learning masks
 
 ## Preparations  
-* Install mmdetection `v2.14.0` and mmcv  
+* Install mmdetection `v2.14.0` and mmcv-full  
     ```shell
     pip install mmdet==2.14.0
     ```
-    For mmcv, please check [here](https://mmdetection.readthedocs.io/en/latest/get_started.html#install-mmdetection) and [compatibility](https://mmdetection.readthedocs.io/en/latest/compatibility.html).
+    For mmcv-full, please check [here](https://mmdetection.readthedocs.io/en/latest/get_started.html#install-mmdetection) and [compatibility](https://mmdetection.readthedocs.io/en/latest/compatibility.html).
 
 * Put the COCO dataset into `./data` folder following [[this url]](https://mmdetection.readthedocs.io/en/latest/1_exist_data_model.html#prepare-datasets).  
 
