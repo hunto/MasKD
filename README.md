@@ -32,19 +32,19 @@ sh tools/mmdet/dist_train_mmdet.sh configs/distill/sfd/sota_sfd_backbone_cls_reg
 ### Results  
 * Baseline settings:  
 
-    |Student|Teacher|MasKD|Config|Log|Ckpt|
-    |:--:|:--:|:--:|:--:|:--:|:--:|
+    |Student|Teacher|MasKD|Config|Log|
+    |:--:|:--:|:--:|:--:|:--:|
     |Faster RCNN-R50 (38.4)|Faster RCNN-R101 (39.8)|40.6||||
     |RetinaNet-R50 (37.4)|RetinaNet-R101 (38.9)|39.9||||
-    |FCOS-R50 (38.5)|FCOS-R101 (40.8)|42.2|||
+    |FCOS-R50 (38.5)|FCOS-R101 (40.8)|42.2|[config](mmrazor/configs/distill/maskd/fcos_r101-fcos_r50_coco.py)|[log](https://github.com/hunto/MasKD/releases/download/v0.0.2/maskd_fcos_r101-fcos_r50_coco.json)|
 
 * Stronger teachers:
 
-    |Student|Teacher|MasKD|Config|Log|Ckpt|
-    |:--:|:--:|:--:|:--:|:--:|:--:|
-    |Faster RCNN-R50 (38.4)|Cascade Mask RCNN-X101 (45.6)|42.4|[config](mmrazor/configs/distill/maskd/cascade_mask_rcnn_x101-fpn_x50_coco.py)|||
-    |RetinaNet-R50 (37.4)|RetinaNet-X101 (41.0)|40.6||||
-    |RepPoints-R50 (38.6)|RepPoints-R101 (44.2)|41.4|||
+    |Student|Teacher|MasKD|Config|Log|
+    |:--:|:--:|:--:|:--:|:--:|
+    |Faster RCNN-R50 (38.4)|Cascade Mask RCNN-X101 (45.6)|42.4|[config](mmrazor/configs/distill/maskd/cascade_mask_rcnn_x101-fpn_x50_coco.py)|[log](https://github.com/hunto/MasKD/releases/download/v0.0.2/maskd_cascade_mask_rcnn_x101-fpn_x50_coco.json)|
+    |RetinaNet-R50 (37.4)|RetinaNet-X101 (41.0)|40.6|||
+    |RepPoints-R50 (38.6)|RepPoints-R101 (44.2)|41.4|[config](mmrazor/configs/distill/maskd/reppoints_x101-reppoints-r50_coco.py)|[log](https://github.com/hunto/MasKD/releases/download/v0.0.2/maskd_reppoints_x101-reppoints_r50.json)|
 ### Learning masks  
 You can train your own mask tokens with the code provided in `mmdetection` folder. Please check [mmdetection/README.md](mmdetection/README.md) for detailed instructions.
 
