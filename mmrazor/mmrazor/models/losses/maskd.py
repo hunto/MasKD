@@ -113,7 +113,7 @@ class MasKDLoss(nn.Module):
             # predict the masks
             mask = mask_module.forward_mask(y_t)
             if self.custom_mask and self._iter >= self.custom_mask_warmup:
-                if self._iter == self.weight_s_mask_warmup:
+                if self._iter == self.custom_mask_warmup:
                     print('Start customizing masks using student\'s masks.')
                 with torch.no_grad():
                     mask_s = mask_module.forward_mask(y_s)  # [N, T, H, W]
