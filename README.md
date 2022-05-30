@@ -25,7 +25,7 @@ sh tools/mmdet/dist_train_mmdet.sh ${CONFIG} 8 ${WORK_DIR}
 
 Example for reproducing our `cascade_mask_rcnn_x101-fpn_r50` result:
 ```shell
-sh tools/mmdet/dist_train_mmdet.sh configs/distill/sfd/sota_sfd_backbone_cls_reg_cmx101_fpn-r50_coco.py 8 work_dirs/sfd/det/cm_x101_fpn_r50
+sh tools/mmdet/dist_train_mmdet.sh configs/distill/maskd/cascade_mask_rcnn_x101-fpn_x50_coco.py 8 work_dirs/maskd_cmr_x101-fpn_x50
 ```
 
 
