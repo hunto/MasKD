@@ -1,5 +1,5 @@
 # Masked Distillation with Receptive Tokens (MasKD)
-Official implementation of paper "Masked Distillation with Receptive Tokens" (MasKD).
+Official implementation of paper "[Masked Distillation with Receptive Tokens](https://arxiv.org/abs/2205.14589)" (MasKD).
 
 By Tao Huang, Yuan Zhang, Shan You, Fei Wang, Chen Qian, Jian Cao, Chang Xu.
 
@@ -55,3 +55,11 @@ For semantic segmentation, please see `segmentation` folder.
 This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Citation  
+```
+@article{huang2022masked,
+  title = {Masked Distillation with Receptive Tokens},
+  author = {Huang, Tao and Zhang, Yuan and You, Shan and Wang, Fei and Qian, Chen and Cao, Jian and Xu, Chang},
+  journal = {arXiv preprint arXiv:2205.14589},
+  year = {2022}
+}
+```
