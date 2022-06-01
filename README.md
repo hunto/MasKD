@@ -5,6 +5,10 @@ By Tao Huang, Yuan Zhang, Shan You, Fei Wang, Chen Qian, Jian Cao, Chang Xu.
 
 :fire: **MasKD: better and more general feature distillation method for dense prediction tasks (e.g., detection and segmentation).**
 
+<p align='center'>
+<img src='./assests/mask.png' alt='mask' width='1000px'>
+</p>
+
 ## Updates  
 
 ### May 30, 2022  
