@@ -67,5 +67,6 @@ title={Masked Distillation with Receptive Tokens},
 author={Tao Huang and Yuan Zhang and Shan You and Fei Wang and Chen Qian and Jian Cao and Chang Xu},
 booktitle={The Eleventh International Conference on Learning Representations },
 year={2023},
-url={https://openreview.net/forum?id=mWRngkvIki3}}
+url={https://openreview.net/forum?id=mWRngkvIki3}
+}
 ```
