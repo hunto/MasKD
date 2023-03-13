@@ -11,7 +11,7 @@ By Tao Huang*, Yuan Zhang*, Shan You, Fei Wang, Chen Qian, Jian Cao, Chang Xu.
 
 ## Updates  
 ### March 04, 2023  
-Configs for KD are available in `mmrazor` folders and Checkpoints are in the Results Table below.
+Configs for KD are available in `mmrazor` folders and student checkpoints are provided.
 ### May 30, 2022  
 Code for mask learning and KD is available in `mmdetection` and `mmrazor` folders.
 
@@ -61,10 +61,11 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Citation  
 ```
-@article{huang2022masked,
-  title = {Masked Distillation with Receptive Tokens},
-  author = {Huang, Tao* and Zhang, Yuan* and You, Shan and Wang, Fei and Qian, Chen and Cao, Jian and Xu, Chang},
-  journal = {arXiv preprint arXiv:2205.14589},
-  year = {2022}
-}
+@inproceedings{
+huang2023masked,
+title={Masked Distillation with Receptive Tokens},
+author={Tao Huang and Yuan Zhang and Shan You and Fei Wang and Chen Qian and Jian Cao and Chang Xu},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://openreview.net/forum?id=mWRngkvIki3}}
 ```
