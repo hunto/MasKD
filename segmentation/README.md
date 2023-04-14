@@ -58,7 +58,7 @@ You can submit the resulting images to the [Cityscapes test server](https://www.
 
 ## Train Your Own Mask Module
 
-Our pretrained mask module on deeplabv3-r101 is in [[link]](https://github.com/hunto/MasKD/releases/download/v0.0.1/maskd_seg_deeplabv3_resnet101_citys.pth) or `work_dirs/dv3-r101/deeplabv3_resnet101_citys_best_model.pth`.
+Our pretrained mask module on deeplabv3-r101 is in [[link]](https://github.com/hunto/MasKD/releases/download/v0.0.1/maskd_seg_deeplabv3_resnet101_citys.pth) or `work_dirs/dv3-r101/deeplabv3_resnet101_citys_best_model.pth`. [[log]](https://github.com/hunto/MasKD/releases/download/v0.0.2/seg_mask_module_deeplabv3_resnet101_citys_log.txt)
 
 You can train your own mask module with the following script:
 ```shell
