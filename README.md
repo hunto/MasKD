@@ -54,7 +54,7 @@ sh tools/mmdet/dist_train_mmdet.sh configs/distill/maskd/cascade_mask_rcnn_x101-
 You can train your own mask tokens with the code provided in `mmdetection` folder. Please check [mmdetection/README.md](mmdetection/README.md) for detailed instructions.
 
 ### Semantic segmentation  
-For semantic segmentation, please see `segmentation` folder.
+For semantic segmentation, please see [segmentation](./segmentation/) folder.
 
 ## License  
 This project is released under the [Apache 2.0 license](LICENSE).
